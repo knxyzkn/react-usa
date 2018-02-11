@@ -3,7 +3,7 @@ React component for United States choropleth map
 
 
 ## Demo
-Live Demo coming soon!
+[Live Demo](https://react-usa-demo.herokuapp.com/)
 
 
 ## Installation
