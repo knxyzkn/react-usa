@@ -35,8 +35,8 @@ class ReactUSA extends React.Component {
   }
 
   render() {
-    const defaultPosition = [40.7831, -73.9712];
-    const defaultZoom = 12;
+    const defaultPosition = [37.0902, -95.7129];
+    const defaultZoom = 4;
     const mapboxType = this.props.mapboxType ? this.props.mapboxType : "streets";
 
     return (
