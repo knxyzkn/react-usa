@@ -1,0 +1,57 @@
+{
+  "name": "react-usa",
+  "version": "1.0.1",
+  "description": "React component for United States choropleth map",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knxyzkn/react-usa.git"
+  },
+  "keywords": [
+    "react",
+    "choropleth",
+    "usa",
+    "united states of america",
+    "united states",
+    "map",
+    "maps",
+    "states",
+    "state",
+    "leaflet",
+    "mapzen",
+    "mapbox"
+  ],
+  "author": "Kaushik Nagaraj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knxyzkn/react-usa/issues"
+  },
+  "homepage": "https://github.com/knxyzkn/react-usa#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  },
+  "dependencies": {
+    "leaflet": "^1.2.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-leaflet": "^1.7.8",
+    "webpack": "^2.6.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-2"
+    ]
+  }
+}
