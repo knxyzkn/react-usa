@@ -18019,8 +18019,8 @@ var ReactUSA = function (_React$Component) {
     value: function render() {
       var _this2 = this;
 
-      var defaultPosition = [40.7831, -73.9712];
-      var defaultZoom = 12;
+      var defaultPosition = [37.0902, -95.7129];
+      var defaultZoom = 4;
       var mapboxType = this.props.mapboxType ? this.props.mapboxType : "streets";
 
       return _react2.default.createElement(
